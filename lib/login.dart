@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_portalberita/register.dart';
 import 'package:flutter_portalberita/theme.dart';
@@ -118,27 +117,48 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(
                 height: 50,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    'Belum punya akun? ',
-                    style: regular16pt.copyWith(color: textGrey),
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                Text(
+                  'Belum punya akun? ',
+                  style: regular16pt.copyWith(color: textGrey),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => RegisterPage()));
+                  },
+                  child: Text(
+                    'Register',
+                    style: regular16pt.copyWith(color: primaryBlue),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => RegisterPage()));
-                    },
-                    child: Text(
-                      'Register',
-                      style: regular16pt.copyWith(color: primaryBlue),
+                ),
+                SizedBox(
+                  height: 50,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      ' You are admin',
+                      style: regular16pt.copyWith(color: textGrey),
                     ),
-                  )
-                ],
-              )
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => mainpage()));
+                      },
+                      child: Text(
+                        ' Click Here',
+                        style: regular16pt.copyWith(color: primaryBlue),
+                      ),
+                    )
+                  ],
+                )
+              ])
             ],
           ),
         ),

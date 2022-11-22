@@ -13,7 +13,7 @@ class _isiberitaState extends State<isiberita> {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text("BERITA PERSIB BANDUNG"),
+          child: Text("BANDUNG NEWS"),
         ),
       ),
       body: GridView.count(
@@ -21,19 +21,19 @@ class _isiberitaState extends State<isiberita> {
         crossAxisCount: 2,
         children: [
           CustomCard(
-              title: "Pertandingan Persib vs Arema",
+              title: "Terjadinya gempa di cianjur",
               image:
                   "https://i.pinimg.com/564x/4b/5d/45/4b5d4559bce3a92327636072a5e067c9.jpg"),
           CustomCard(
-              title: "Pertandingan Persib vs Persija",
+              title: "Laju kemacetan di bandung",
               image:
                   "https://i.pinimg.com/564x/b2/40/26/b240260755fab7ba120412c637b4e10a.jpg"),
           CustomCard(
-              title: "Hasil Pertandingan Persib 0 - 3 Persebaya",
+              title: "Kawasan Wisata Di Bandung",
               image:
                   "https://i.pinimg.com/564x/63/bd/e1/63bde1fc4e110a9103d3230e1cf92c51.jpg"),
           CustomCard(
-              title: "Tanggapan Coach mengenai pertandingan laga nanti malam",
+              title: "Tour Kuliner Bandung",
               image:
                   "https://i.pinimg.com/564x/98/17/0e/98170e330aa4886b81bf58f3ceb69748.jpg"),
         ],

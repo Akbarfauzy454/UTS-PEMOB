@@ -40,7 +40,7 @@ class about extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   child: Text.rich(
                     TextSpan(
-                        text: 'Portal Berita PERSIB BANDUNG ',
+                        text: 'Portal Berita BANDUNG ',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 15,
@@ -69,7 +69,7 @@ class about extends StatelessWidget {
                 child: const Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    'Aplikasi ini berisi tentang informasi. Dengan mengambil topik mengenai seputar berita Persib Bandung, dengan beberapa menu yaitu:',
+                    'Aplikasi ini berisi tentang informasi. Dengan mengambil topik mengenai seputar berita di Bandung, dengan beberapa menu yaitu:',
                     style: TextStyle(
                         fontWeight: FontWeight.normal,
                         fontSize: 15,
@@ -118,7 +118,7 @@ class about extends StatelessWidget {
                         children: <InlineSpan>[
                           TextSpan(
                             text:
-                                'Menampilkan berita terbaru pertandingan persib bandung maupun lainnya.',
+                                'Menampilkan berita terbaru yang terjadi di bandung maupun lainnya.',
                             style: TextStyle(
                                 fontWeight: FontWeight.normal,
                                 fontSize: 15,
