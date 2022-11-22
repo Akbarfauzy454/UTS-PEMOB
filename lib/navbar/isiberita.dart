@@ -20,22 +20,10 @@ class _isiberitaState extends State<isiberita> {
         //widget yang akan ditampilkan dalam 1 baris adalah 2
         crossAxisCount: 2,
         children: [
-          CustomCard(
-              title: "Terjadinya gempa di cianjur",
-              image:
-                  "https://i.pinimg.com/564x/4b/5d/45/4b5d4559bce3a92327636072a5e067c9.jpg"),
-          CustomCard(
-              title: "Laju kemacetan di bandung",
-              image:
-                  "https://i.pinimg.com/564x/b2/40/26/b240260755fab7ba120412c637b4e10a.jpg"),
-          CustomCard(
-              title: "Kawasan Wisata Di Bandung",
-              image:
-                  "https://i.pinimg.com/564x/63/bd/e1/63bde1fc4e110a9103d3230e1cf92c51.jpg"),
-          CustomCard(
-              title: "Tour Kuliner Bandung",
-              image:
-                  "https://i.pinimg.com/564x/98/17/0e/98170e330aa4886b81bf58f3ceb69748.jpg"),
+          CustomCard(title: "Terjadinya gempa di cianjur", image: ""),
+          CustomCard(title: "Laju kemacetan di bandung", image: ""),
+          CustomCard(title: "Kawasan Wisata Di Bandung", image: ""),
+          CustomCard(title: "Tour Kuliner Bandung", image: ""),
         ],
       ),
     );
